@@ -1,0 +1,40 @@
+body {
+    background-color: #070a0b;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+button {
+    border: none;
+    padding: 0.7rem 2rem;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#stopwatch {
+    text-align: center;
+}
+
+#timer {
+    margin: 1rem 0;
+    font-size: 7rem;
+}
+
+#start-button:disabled {
+    opacity: 0.5;
+}
+
+#start-button:enabled {
+    background-color: #46b961;
+    color: white;
+}
+
+#stop-button:enabled {
+    background-color: #c83743;
+    color: white;
+}
+
+#start-button {
+    background-color: #46b961;
+    
+}
